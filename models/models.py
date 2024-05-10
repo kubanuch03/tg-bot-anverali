@@ -6,5 +6,5 @@ class Task(Base):
     __tablename__ = 'tasks'
     id = Column(Integer, primary_key=True)
     task_text = Column(String)  # Изменено на task_text для соответствия столбцу в БД
-    # user_id = Column(Integer)   # Добавлены столбцы user_id и created_at
+    # user_id = Column(Integer)  
     # created_at = Column(String)
